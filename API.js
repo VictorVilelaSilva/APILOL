@@ -13,10 +13,8 @@ let nome = "";
 //faz o request para a API
 var request = 'https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/' + name + '?api_key=' + APIKey;
 fetch(request).then(response => {
-    nome = response.json();
+    return response.json();
 }).then(corpo => {
-    const nome = corpo;
+    console.log(corpo);
 })
-
-console.log(nome);
 
