@@ -1,0 +1,14 @@
+{
+  "name": "myapp",
+  "version": "14.17.2",
+  "description": "",
+  "main": "API.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
